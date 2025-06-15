@@ -5,7 +5,7 @@
 .header{
     min-height: 100vh;
     min-width: 100%;
-    background-image: url(rachna12.jpg);
+    background-image: url(images/rachna12.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -231,7 +231,7 @@ h3{
 .subheader{
     min-height: 50vh;
     min-width: 100%;
-    background-image: url(rachna12.jpg);
+    background-image: url(images/rachna12.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
