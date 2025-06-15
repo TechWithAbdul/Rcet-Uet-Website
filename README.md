@@ -18,6 +18,7 @@ The website replicates the structure of a typical educational institution's home
 
 - **HTML** – For page structure and content
 - **CSS** – For layout and visual styling
+- **JAVASCRIPT** – For Basic funtionaity just
 
 ## 💻 How to Run Locally
 
