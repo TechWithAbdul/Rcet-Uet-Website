@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachna Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="download.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+               <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="About.html">ABOUT</a></li>
+                   <li><a href="courses.html">COURSES</a></li>
+                   <li><a href="register.html">REGISTER</a></li>
+                   <li><a href="faculty2.html">FACULTY</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+              </div> 
+            <i class="fa fa-bars" onclick="showmenu()"></i>   
+        </nav>
+        <div class="text-box">
+            <h1>About Us</h1><br>
+            <a href="courses.html" class="butt">Go To Next Page</a>
+        </div>      
+    </section>
+    <!--About us content-->
+    <section>
+    <div>
+        <table align="center" class="table">
+            <tr>
+                <td>
+                    <h1>About Rachna College</h1>
+                    <p>
+                    RCET is Situated at the hub of the Engineering Industries of the country,
+                    Rachna College derives its name from the lands
+                    stretching between the rivers, the Ravi and the Chenab.
+                    College was inaugurated by Lt. Gen. (R) Khalid Maqbool Governor
+                    of Punjab on 15th January, 2003, with the induction of the first batch of 105 students.
+                    Later on University of Engineering
+                    & Technology, Lahore (UET) Adopted Rachna College of Engineering & Technology, Gujranwala
+                    as Constituent College in 2007.The
+                    College is located on the left bank of Nokhar Branch Canal
+                    about seven kilometers off (East) G.T. Road, between Gakhar and
+                    Wazirabad. The Rachna College of Engineering & Technology, Gujranwala campus
+                    is spread over an area of about 25 acres,
+                     surrounded by a canal on the south and lush agricultural
+                    land on the remaining three sides. In addition to this, about 48
+                    acres of abutting land has been purchased with the aim of 
+                    expansion in the near future.
+                    </p>
+                    <br>
+                    <a class="red-btn" href="https://web.facebook.com/rcetuet">Explore More</a>
+                </td>
+                <td>
+                    <img class="img" src="rachna13.jpeg" alt="no pic">
+                </td>        
+            </tr>
+        </table>
+    </div>
+    </section>
+    <!--Footer-->
+    <section class="Footer">
+            <div>
+                <h4>RCET (GRW)</h4>
+                <div>
+                    <i class="fa fa-home"></i>
+                    <i class="fa fa-phone"></i>
+                <i class="fa fa-envelope"></i>
+            </div><br>
+            <p>The Rachna College of Engineering and Technology (RCET) is one of the new 
+                generations of Pakistani Colleges with a progressive and innovative outlook. 
+                The College is planned to grow as a modern<br> center of excellence for research 
+                and development in the fields of Engineering and Technology.</p>
+        </div>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+           function showmenu(){
+               navlinks.style.right="0";
+           }
+           function hidemenu(){
+               navlinks.style.right="-200px";
+           }
+    </script>
+    
+</body>
+</html>
+</html>

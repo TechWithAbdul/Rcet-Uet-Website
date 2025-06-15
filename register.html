@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachna Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="download.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+               <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="About.html">ABOUT</a></li>
+                   <li><a href="courses.html">COURSES</a></li>
+                   <li><a href="register.html">REGISTER</a></li>
+                   <li><a href="faculty2.html">FACULTY</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+              </div> 
+            <i class="fa fa-bars" onclick="showmenu()"></i>   
+        </nav>
+        <div class="text-box">
+            <h1>Register</h1><br>
+            <a href="faculty2.html" class="butt">Go To Next Page</a>
+        </div>      
+    </section><br><br><br><br>
+    <!--Registeration-->
+    <h3>Note:Please fill out the following form accurately</h3>
+    <section class="registrationBody">
+        <div class="container">
+            <form class="registrationForm">
+                <h2 class="formTitle">Registration</h2>
+    
+                <label for="fullName" class="formLabel">Full Name:</label>
+                <input type="text" id="fullName" class="inputField" placeholder="Enter your full name" required>
+    
+                <label for="fatherName" class="formLabel">Father's Name:</label>
+                <input type="text" id="fatherName" class="inputField" placeholder="Enter your father's name" required>
+    
+                <label for="email" class="formLabel">Email:</label>
+                <input type="email" id="email" class="inputField" placeholder="Enter your email" required>
+    
+                <label for="gender" class="formLabel">Gender:</label>
+                <div class="genderRadio">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+    
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+    
+                    <input type="radio" id="other" name="gender" value="other" required>
+                    <label for="other">Other</label>
+                </div>
+    
+                <label for="dob" class="formLabel">Date of Birth:</label>
+                <input type="date" id="dob" class="inputField" required>
+    
+                <label for="program" class="formLabel">Select Your Program:</label>
+                <select id="program" class="inputField">
+                    <option value="cs">Computer Science</option>
+                    <option value="me">Mechanical Engineering</option>
+                    <option value="ee">Electrical Engineering</option>
+                    <option value="ime">Industrial and Manufacturing Engineering</option>
+                </select>
+    
+                <label for="image" class="formLabel">Upload Image:</label>
+                <input type="file" id="image" class="inputField" accept="image/*">
+    
+                <button type="submit" class="submitButton">Register</button>
+            </form>
+        </div>
+    </section>
+    <!--Footer-->
+    <section class="Footer">
+            <div>
+                <h4>RCET (GRW)</h4>
+                <div>
+                    <i class="fa fa-home"></i>
+                    <i class="fa fa-phone"></i>
+                <i class="fa fa-envelope"></i>
+            </div><br>
+            <p>The Rachna College of Engineering and Technology (RCET) is one of the new 
+                generations of Pakistani Colleges with a progressive and innovative outlook. 
+                The College is planned to grow as a modern<br> center of excellence for research 
+                and development in the fields of Engineering and Technology.</p>
+        </div>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+           function showmenu(){
+               navlinks.style.right="0";
+           }
+           function hidemenu(){
+               navlinks.style.right="-200px";
+           }
+    </script>
+</body>
+</html>
+</html>

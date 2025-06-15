@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachna Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="download.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+               <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="About.html">ABOUT</a></li>
+                   <li><a href="courses.html">COURSES</a></li>
+                   <li><a href="register.html">REGISTER</a></li>
+                   <li><a href="faculty2.html">FACULTY</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+              </div> 
+            <i class="fa fa-bars" onclick="showmenu()"></i>   
+        </nav>
+        <div class="text-box">
+            <h1>Contact</h1><br>
+            <a href="index.html" class="butt">Go To Main Page</a>
+        </div>      
+    </section><br><br><br><br>
+    <!--Registeration-->
+    <section class="location">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3370.167745792945!2d74.20527577473466!3d32.
+        361045305129494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f20a3705c30c1%3A0x858cebbad07e640!2sUniversity%20of%20Engineering%20%26%20Technology%20Gujranwala%20Campus!5e0!3m2!1sen!2s!4v1703212474442!5m2!1sen!2s" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5> 7km G.T Road, Joura Sian</h5>
+                        <p>Gukkhar, Punjab, Pakistan</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5> Phone: +92 55 6770168</h5>
+                        <p>Monday to Saturday,8am to 4pm</p>
+                    </span>
+                </div>
+                <div>
+                <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5> Email: admin.rcet@uet.edu.pk</h5>
+                        <p>Email your query to us</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form class="registrationForm">
+                    <h2 class="formTitle">Contact Us</h2>
+    
+                    <label for="fullName" class="formLabel">Full Name:</label>
+                    <input type="text" id="fullName" class="inputField" placeholder="Enter your full name" required>
+    
+                    <label for="email" class="formLabel">Email:</label>
+                    <input type="email" id="email" class="inputField" placeholder="Enter your email" required>
+    
+                        <label for="message" class="formLabel">Your Message</label>
+                        <input type="text" id="dob" class="inputField" required>
+    
+                        <button type="submit" class="submitButton">send us</button>
+                   </form>
+          </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <section class="Footer">
+        <div>
+            <h4>RCET (GRW)</h4>
+            <div>
+                <i class="fa fa-home"></i>
+                <i class="fa fa-phone"></i>
+            <i class="fa fa-envelope"></i>
+        </div><br>
+            <p>The Rachna College of Engineering and Technology (RCET) is one of the new 
+                generations of Pakistani Colleges with a progressive and innovative outlook. 
+                The College is planned to grow as a modern<br> center of excellence for research 
+                and development in the fields of Engineering and Technology.</p>
+        </div>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+           function showmenu(){
+               navlinks.style.right="0";
+           }
+           function hidemenu(){
+               navlinks.style.right="-200px";
+           }
+    </script>
+</body>
+</html>
+</html>

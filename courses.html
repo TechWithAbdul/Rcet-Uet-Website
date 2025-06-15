@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachna Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="download.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+               <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="About.html">ABOUT</a></li>
+                   <li><a href="courses.html">COURSES</a></li>
+                   <li><a href="register.html">REGISTER</a></li>
+                   <li><a href="faculty2.html">FACULTY</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+              </div> 
+            <i class="fa fa-bars" onclick="showmenu()"></i>   
+        </nav>
+        <div class="text-box">
+            <h1>Courses</h1><br>
+            <a href="register.html" class="butt">Go To Next Page</a>
+        </div>      
+    </section>
+    <!--Courses-->
+    <section class="Department">
+        <h1>Courses We Offer</h1>
+        <div class="line">
+            <div class="line-col">
+                <h3>Bs.Computer Science</h3>
+                <p>The department of Computer Science and Engineering was established in 2008 and is currently offering 
+                    a degree course in Computer Science at undegraduate level. The mission of Computer Science and 
+                    Engineering Department is to equip the students with up-to-date curricula of computer science and 
+                    engineering disciplines, to ensure that the students have the solid foundations in the core concepts 
+                    in computing and Engineering disciplines, to train them in problem solving and decision making skills 
+                    and to prepare them for lifelong learning in the discipline. The departmet has qualified faculty comprising 
+                    of three PhD faculty members and seven holds MPhil degree. In order to develop the qualified faculty, several 
+                    teachers were provided financial grants to go abroad for postgraduate studies leading to Doctorate in computer science. 
+                    The department introduced the 4 year B.Sc. in Computer Science in 2008. The B.Sc. Computer Science Program is 
+                    accrediated by National Computing and Accreditation Council (NCEAC)..</p>
+            </div>
+            <div class="line-col">
+                <h3>Mechanical Engineering</h3>
+                <p>Mechanical Engineering is one of the major divisions within the profession and its principles are involved in the 
+                    design, development and construction of nearly all of the physical devices and systems which technology has produced. 
+                    Mechanical engineers are also concerned with the operations of all kinds of machinery, and the production of power. 
+                    They must conceive, research, design, develop, test, manufacture and sell equipment for these purposes. This course 
+                    will introduce you to the realm of mechanical engineering and the relationships between mathematics, physics, 
+                    communications and sciences which is important for the study, design, analysis and manufacturing of mechanical 
+                    products and systems.</p>
+            </div>
+            <div class="line-col">
+                <h3>Electrical Engineering</h3>
+                <p>The Department of Electrical Engineering of Rachna College of Engineering and Technology (RCET), Gujranwala,
+                     is one of the premier electrical engineering education and research departments of the area. Since its inception 
+                     in 2003, it has grown leaps and bounds and continuously striving for excellence. The department consists of 
+                     experienced faculty, well-equipped classrooms and state of the art lab facilities. The department offers a
+                      four year comprehensive undergraduate program of B.Sc. Electrical Engineering, which is fully accredited by
+                       Pakistan Engineering Council (PEC).</p>
+            </div>
+            <div class="line-col">
+                <h3>Industrial & Manufacturing Engineering</h3>
+                <p>The Department of Industrial and Manufacturing Engineering was established in 2003. Since its beginning,
+                     the Department has produced highly skilled and qualified engineers who have contributed towards the economy
+                      of the country. The department has continuously been accredited by the PEC up till the 2014 session. 
+                      The department is making its transition from the traditional semester system to this new OBE system for 
+                      its undergraduate program from the 2015 session. For this purpose, the mission statement of the program is
+                       written in harmony with vision and mission of the university. The program educational objectives (PEOs) 
+                       are mapped with the vision and mission of the university and the department..</p>
+            </div>
+
+        </div>
+    </section>
+    <!--Footer-->
+    <section class="Footer">
+            <div>
+                <h4>RCET (GRW)</h4>
+                <div>
+                    <i class="fa fa-home"></i>
+                    <i class="fa fa-phone"></i>
+                <i class="fa fa-envelope"></i>
+            </div><br>
+            <p>The Rachna College of Engineering and Technology (RCET) is one of the new 
+                generations of Pakistani Colleges with a progressive and innovative outlook. 
+                The College is planned to grow as a modern<br> center of excellence for research 
+                and development in the fields of Engineering and Technology.</p>
+        </div>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+           function showmenu(){
+               navlinks.style.right="0";
+           }
+           function hidemenu(){
+               navlinks.style.right="-200px";
+           }
+    </script>
+    
+</body>
+</html>
+</html>
